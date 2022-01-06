@@ -89,7 +89,19 @@ def home(request):
  + create a base page common for all pages
  + templates -> create base.html
  
-#### base.heml
+#### base.html
+ + ! and enter will fetch basic code
 <pre>
+<body bgcolor="cyan">
+    {% block content %}
+    {% endblock %}
+</body>
+</pre>
 
+#### in home.html
+<pre>
+{% extends 'base.html' %}
+{% block content %}
+<h1>Hello {{name}}!!!</h1>
+{% endblock %}
 </pre>
