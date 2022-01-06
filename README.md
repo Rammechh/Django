@@ -65,3 +65,11 @@ Django_Template_Language
 ==================
  + Instead of creating static html pages. django provides tempates for creating dynamic pages
  + -> In firstproject -> create folder templates -> create file home.html
+#### home.html
+<pre>
+<h1>Hello World!!!</h1>
+</pre>
+ + in settings.py > in templates section 
+<pre>
+DIRS : [os.path.join(BASE_DIR, 'templates')],
+</pre>
