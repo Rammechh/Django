@@ -102,6 +102,6 @@ def home(request):
 <pre>
 {% extends 'base.html' %}
 {% block content %}
-<h1>Hello {{name}}!!!</h1>
+<h1!>Hello {{name}}!!!</h1>
 {% endblock %}
 </pre>
