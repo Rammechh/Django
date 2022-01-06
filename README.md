@@ -5,8 +5,8 @@ Learning
 Table of Contents
 =================
   + [Configurations](#Configurations)
-  + [Create_Project](#Create_Project)
-  + [Visual_studio_code](#Visual_studio_code)
+  + [Create Project](#Create_Project)
+  + [Visual studio code](#Visual_studio_code)
 <!--te-->
 
 Configurations
@@ -30,8 +30,9 @@ Create_Project
  + -> dir firstproject
  + -> python manage.py runserver (py provides the live server to run projects - IP generated)
  
-Visual_studio_code (Integreated Development Environment)
+Visual_studio_code 
 ================
+ + IDE (Integreated Development Environment)
  + Open folder (projects -> firstproject) created already.
  + Go to Terminal check -> django --version if not installed -> pip install django
  + -> workon test
