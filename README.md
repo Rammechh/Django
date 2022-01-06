@@ -63,4 +63,4 @@ urlpatterns = [path('', include('calc.urls'))]
 
 Django_Template_Language
 ==================
- + 
+ + Instead of creating static html pages. django provides tempates for creating dynamic pages
