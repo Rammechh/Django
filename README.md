@@ -6,7 +6,7 @@ Table of Contents
 =================
   + [Configurations](#Configurations)
   + [Create_Project](#Create_Project)
-  + [Visual studio code](#Visual_studio_code)
+  + [Using Visual studio code](#Visual_studio_code)
 <!--te-->
 
 Configurations
@@ -30,6 +30,6 @@ Create_Project
  + -> dir firstproject
  + -> python manage.py runserver (py provides the live server to run projects - IP generated)
  
-Visual studio code
+Visual_studio_code
 ================
 
