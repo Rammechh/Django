@@ -6,7 +6,7 @@ Table of Contents
 =================
   + [Configurations](#Configurations)
   + [Create Project](#Create_Project)
-  + [Visual studio code](#Visual_studio_code)
+  + [Visual studio code](#Visual_studio_code(Hello_World))
 <!--te-->
 
 Configurations
@@ -30,7 +30,7 @@ Create_Project
  + -> dir firstproject
  + -> python manage.py runserver (py provides the live server to run projects - IP generated)
  
-Visual_studio_code 
+Visual_studio_code(Hello_World) 
 ================
  + IDE (Integreated Development Environment)
  + Open folder (projects -> firstproject) created already.
@@ -58,4 +58,4 @@ def home(request):
 from django.urls import path, include
 urlpatterns = [path('', include('calc.urls'))]
 </pre>
-</pre>
+ + --> python manage.py runserver and check the webpage showing Hello World
