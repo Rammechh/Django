@@ -6,6 +6,7 @@ Table of Contents
 =================
   + [Configurations](#Configurations)
   + [Create_Project](#Create_Project)
+  + [Visual studio code](#Visual studio code)
 <!--te-->
 
 Configurations
@@ -23,9 +24,12 @@ Create_Project
  + -> mkdir projects (make directory)
  + -> cd projects (change directory)
 
-### New project
+### New project and sample run
  + [Documentation](https://docs.djangoproject.com/en/4.0/intro/tutorial01/)
  + -> django-admin startproject firstproject (firstproject - anyname)
- + 
-
+ + -> dir firstproject
+ + -> python manage.py runserver (py provides the live server to run projects - IP generated)
+ 
+Visual studio code
+================
 
