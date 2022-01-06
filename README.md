@@ -6,7 +6,7 @@ Table of Contents
 =================
   + [Configurations](#Configurations)
   + [Create_Project](#Create_Project)
-  + [Using Visual studio code](#Visual_studio_code)
+  + [Visual_studio_code](#Visual_studio_code)
 <!--te-->
 
 Configurations
