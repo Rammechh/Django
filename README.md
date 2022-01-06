@@ -9,12 +9,13 @@ Table of Contents
 
 Configurations
 ============
- + [install Python](https://www.python.org/)
+ + [Install Python](https://www.python.org/)
  + To work on  virtual environment
     * cmd commands -> pip install virtualenvwrapper-win
     * -> mkvirtualenv test (test - anyname)
  + install Django
     * -> pip install django (check version django-admin --version)
  
-##### create working directory
-  + 
+### Create working directory
+ + mkdir projects (make directory)
+ + change directory (cd projects)
