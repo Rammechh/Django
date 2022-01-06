@@ -85,3 +85,11 @@ def home(request):
 <pre>
 <h1!>Hello {{name}}!!!</h1>
 </pre>
+
+ + create a base page common for all pages
+ + templates -> create base.html
+ 
+#### base.heml
+<pre>
+
+</pre>
