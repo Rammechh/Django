@@ -67,7 +67,7 @@ Django_Template_Language
  + -> In firstproject -> create folder templates -> create file home.html
 #### home.html
 <pre>
-<h1>Hello World!!!</h1>
+<h5>Hello World!!!</h5>
 </pre>
  + in settings.py > in templates section 
 <pre>
