@@ -7,6 +7,7 @@ Table of Contents
   + [Configurations](#Configurations)
   + [Create Project](#Create_Project)
   + [Hello world](#Hello_World)
+  + [Django Template Language](#Django_Template_Language)
 <!--te-->
 
 Configurations
@@ -59,3 +60,7 @@ from django.urls import path, include
 urlpatterns = [path('', include('calc.urls'))]
 </pre>
  + --> python manage.py runserver and check the webpage showing Hello World
+
+Django_Template_Language
+==================
+ + 
