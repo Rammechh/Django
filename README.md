@@ -6,7 +6,7 @@ Table of Contents
 =================
   + [Configurations](#Configurations)
   + [Create Project](#Create_Project)
-  + [Hello world](#Visual_studio_code)
+  + [Hello world](#Hello_World)
 <!--te-->
 
 Configurations
@@ -30,9 +30,9 @@ Create_Project
  + -> dir firstproject
  + -> python manage.py runserver (py provides the live server to run projects - IP generated)
  
-Visual_studio_code
+Hello_World
 ================
- + IDE (Integreated Development Environment)
+ + use Visual studio code IDE (Integreated Development Environment)
  + Open folder (projects -> firstproject) created already.
  + Go to Terminal check -> django --version if not installed -> pip install django
  + -> workon test
