@@ -30,6 +30,31 @@ Create_Project
  + -> dir firstproject
  + -> python manage.py runserver (py provides the live server to run projects - IP generated)
  
-Visual_studio_code
+Visual_studio_code (Integreated Development Environment)
 ================
+ + Open folder (projects -> firstproject) created already.
+ + Go to Terminal check -> django --version if not installed -> pip install django
+ + -> workon test
+ + Inside firstproject -> python manage.py startapp calc (new project created)
+ + Inside calc -> create newfile urls.py
+ 
+#### In calc -> urls.py
+<pre>
+from django import path
+from . import views
+urlpatterns = [path('', views.home, name = 'home')]
+</pre>
 
+#### In calc -> views.py
+<pre>
+from django import HttpResponse
+def home(request):
+  return HttpResponse("Hello World")
+</pre>
+
+#### In firstproject -> urls.py
+<pre>
+from django.urls import path, include
+urlpatterns = [path('', include('calc.urls'))]
+</pre>
+</pre>
