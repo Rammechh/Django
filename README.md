@@ -17,5 +17,5 @@ Configurations
     * -> pip install django (check version django-admin --version)
  
 ### Create working directory
- + mkdir projects (make directory)
- + change directory (cd projects)
+ + -> mkdir projects (make directory)
+ + -> cd projects (change directory)
