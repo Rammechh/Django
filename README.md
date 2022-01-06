@@ -64,3 +64,4 @@ urlpatterns = [path('', include('calc.urls'))]
 Django_Template_Language
 ==================
  + Instead of creating static html pages. django provides tempates for creating dynamic pages
+ + -> In firstproject -> create folder templates -> create file home.html
