@@ -73,3 +73,16 @@ Django_Template_Language
 <pre>
 DIRS : [os.path.join(BASE_DIR, 'templates')],
 </pre>
+
+#### In calc -> views.py
+<pre>
+def home(request):
+    #return HttpResponse(5*2)
+    #return HttpResponse("Hello World")
+    return render(request,'home.html', {'name': 'Ram'})
+</pre>
+
+#### In templates -> home.html
+<pre>
+<h1!>Hello {{name}}!!!</h1>
+</pre>
