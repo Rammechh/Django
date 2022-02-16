@@ -5,6 +5,7 @@ Learning
 Table of Contents
 =================
   + [Configurations](#Configurations)
+  + [Change directory](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/)
   + [Create Project](#Create_Project)
   + [Hello world](#Hello_World)
   + [Django Template Language](#Django_Template_Language)
